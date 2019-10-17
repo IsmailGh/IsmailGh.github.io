@@ -17,23 +17,22 @@ function Home(props) {
                                     <a href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer" 
                                     >Resume</a>
                                 </span>
-                                <p class="greet">Hi, My name is <br />
-                                </p>
+                                    <p class="greet">Hi, My name is <br /></p>
                                 <h1>
                                 <span class="name">
-                                Ismail Ghelle
+                                    Ismail Ghelle
                                 </span> <br />
                                 <span class="description">
-                                I build things on the web.
+                                    I build things on the web.
                                 </span><br />
                                 <span class="underline">
                                 </span>
                                 </h1>
                                 <p class="para">
-                                I’m a software engineer based in Toronto, currently studying at Ryerson University. I enjoy building and designing great, high-quality websites and applications. 
+                                    I’m a software engineer based in Toronto, currently studying at Ryerson University. I enjoy building and designing great, high-quality websites and applications. 
                                 </p>
                                 <span class="button">
-                                <a href="mailto:ismailghelle6@gmail.com">Get in touch!</a>
+                                    <a href="mailto:ismailghelle6@gmail.com">Get in touch!</a>
                                 </span>
                             </div>
                         )}
