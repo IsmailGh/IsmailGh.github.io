@@ -17,9 +17,12 @@
 }
 a:link{
     text-decoration: none!important;
+    text-decoration-color: none!important;
     color: inherit;
   }
-
+  a:visited{ 
+    color: #B65555;
+}
 body {
     background-color: var(--dark)
 }
@@ -129,10 +132,10 @@ h1 {
 }
 
 .resume{
+    text-decoration-color: none;
     position: absolute;
     left:1150px;
     top: 50px;
-    text-decoration: none;
     font-family: Montserrat; 
     font-size: 14px;
     background-color: transparent;
