@@ -1,8 +1,12 @@
 import React from 'react';
-import "./Home.css"
-import { Spring } from 'react-spring/renderprops'
+import "./Home.css";
+import Pdf from "./resume.pdf";
+import { Spring } from 'react-spring/renderprops';
+
+
 
 function Home(props) {
+
     return(
         <div class="wrapper">
             <section class="top">
@@ -14,7 +18,8 @@ function Home(props) {
                         {props => (
                             <div style={props}>
                                 <span class='resume'>
-                                    <a href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer" 
+                                
+                                    <a href= {Pdf} target="_blank" rel="nofollow noopener noreferrer" 
                                     >Resume</a>
                                 </span>
                                     <p class="greet">Hi, My name is <br /></p>
