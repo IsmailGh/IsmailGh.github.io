@@ -17,11 +17,6 @@ function Home(props) {
                     >
                         {props => (
                             <div style={props}>
-                                <span class='resume'>
-                                
-                                    <a href= {Pdf} target="_blank" rel="nofollow noopener noreferrer" 
-                                    >Resume</a>
-                                </span>
                                     <p class="greet">Hi, My name is <br /></p>
                                 <h1>
                                 <span class="name">
@@ -38,6 +33,10 @@ function Home(props) {
                                 </p>
                                 <span class="button">
                                     <a href="mailto:ismailghelle6@gmail.com">Get in touch!</a>
+                                </span>
+                                <span class='resume'>
+                                 <a href= {Pdf} target="_blank" rel="nofollow noopener noreferrer" 
+                                    >Resume</a>
                                 </span>
                             </div>
                         )}

@@ -23,6 +23,9 @@ a:link{
   a:visited{ 
     color: #B65555;
 }
+a:hover{
+    color: #B4BFE3;
+}
 body {
     background-color: var(--dark)
 }
@@ -113,17 +116,13 @@ h1 {
 .button{
     text-decoration: none;
     margin-top: 50px;
+    position: relative;
     font-family: Montserrat;
     color: #B65555; 
     font-size: 14px;
-    border-width: 1px;
     text-transform: capitalize;
     font-weight: bold;
-    border-color:#B65555;
-    border-radius: 3px;
-    border-style: solid;
     display:inline-block;
-    padding: 1rem 1.5rem;
 }
 
 
@@ -132,26 +131,18 @@ h1 {
 }
 
 .resume{
-    text-decoration-color: none;
-    position: absolute;
-    left:1150px;
-    top: 50px;
-    font-family: Montserrat; 
+    text-decoration: none;
+    font-family: Montserrat;
+    color: #B65555; 
     font-size: 14px;
-    background-color: transparent;
-    color: #B65555;
-    border-width: 1px;
     text-transform: capitalize;
     font-weight: bold;
-    border-color:#B65555;
-    border-radius: 3px;
-    border-style: solid;
-    padding: 1rem 1.5rem;    
-    display: inline-block;
+    display:inline-block;
+    padding: 1rem 1.5rem;
 }
 
 @media only screen and (max-width: 1280px) {
-    .top{
+    .top, .resume{
         grid-template-columns: 1fr;
         grid-template-areas: 
         "top__content";
@@ -159,7 +150,7 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-    .top__content{
+    .top__content, .resume{
         transform: scale(0.85);
     }
 }
