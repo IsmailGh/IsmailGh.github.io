@@ -138,11 +138,10 @@ h1 {
     text-transform: capitalize;
     font-weight: bold;
     display:inline-block;
-    padding: 1rem 1.5rem;
 }
 
 @media only screen and (max-width: 1280px) {
-    .top, .resume{
+    .top, {
         grid-template-columns: 1fr;
         grid-template-areas: 
         "top__content";
@@ -150,7 +149,7 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
-    .top__content, .resume{
+    .top__content{
         transform: scale(0.85);
     }
 }

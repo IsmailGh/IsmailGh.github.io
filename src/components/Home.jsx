@@ -3,10 +3,7 @@ import "./Home.css";
 import Pdf from "./resume.pdf";
 import { Spring } from 'react-spring/renderprops';
 
-
-
 function Home(props) {
-
     return(
         <div class="wrapper">
             <section class="top">
@@ -18,26 +15,26 @@ function Home(props) {
                         {props => (
                             <div style={props}>
                                     <p class="greet">Hi, My name is <br /></p>
-                                <h1>
-                                <span class="name">
-                                    Ismail Ghelle
-                                </span> <br />
-                                <span class="description">
-                                    I build things on the web.
-                                </span><br />
-                                <span class="underline">
-                                </span>
-                                </h1>
-                                <p class="para">
-                                    I’m a software engineer based in Toronto, currently studying at Ryerson University. I enjoy building and designing great, high-quality websites and applications. 
-                                </p>
-                                <span class="button">
-                                    <a href="mailto:ismailghelle6@gmail.com">Get in touch!</a>
-                                </span>
-                                <span class='resume'>
-                                 <a href= {Pdf} target="_blank" rel="nofollow noopener noreferrer" 
-                                    >Resume</a>
-                                </span>
+                                    <h1>
+                                    <span class="name">
+                                        Ismail Ghelle
+                                    </span> <br />
+                                    <span class="description">
+                                        I build things on the web.
+                                    </span><br />
+                                    <span class="underline">
+                                    </span>
+                                    </h1>
+                                    <p class="para">
+                                        I’m a software engineer based in Toronto, currently studying at Ryerson University. I enjoy building and designing great, high-quality websites and applications. 
+                                    </p>
+                                    <span class="button">
+                                        <a href="mailto:ismailghelle6@gmail.com">Get in touch!</a>
+                                    </span>
+                                    <span class='resume'>
+                                    <a href= {Pdf} target="_blank" rel="nofollow noopener noreferrer" 
+                                        >Resume</a>
+                                    </span>
                             </div>
                         )}
                     </Spring>
@@ -46,5 +43,4 @@ function Home(props) {
          </div>      
     )
 }
-
 export default Home
