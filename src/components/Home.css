@@ -16,7 +16,7 @@
     margin: 0;
 }
 
-a:link{
+a,svg:link{
     text-decoration: none!important;
     text-decoration-color: none!important;
     color: inherit;
@@ -28,6 +28,13 @@ a:visited{
 
 a:hover{
     color: #B4BFE3;
+}
+svg:visited{ 
+    fill: #B65555;
+}
+
+svg:hover{
+    fill: #B4BFE3;
 }
 
 body {
@@ -142,6 +149,14 @@ h1 {
     font-weight: bold;
     display:inline-block;
     padding: 1rem 1.5rem;
+}
+.github{
+    width: 1.5em;
+    position: relative;
+    margin-top: 1.5rem;
+    margin-left: 20px;
+    fill:#B65555;
+
 }
 
 @media only screen and (max-width: 1280px) {
